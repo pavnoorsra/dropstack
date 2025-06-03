@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DROPSTACK | DROP Your Vibe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="phone-frame">
+
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="themeToggle">
+        <span class="slider round"></span>
+      </label>
+      <span class="toggle-label">🌙</span>
+    </div>
+
+    <h1>DROPSTACK</h1>
+    <p>DROP your vibe. Scroll the feed. Share the moment.</p>
+
+    <section>
+      <input type="file" id="imageInput" accept="image/*"><br>
+      <input type="text" id="tagInput" placeholder="#hashtag"><br>
+      <input type="text" id="userInput" placeholder="@username"><br>
+      <button id="uploadBtn">Upload</button>
+    </section>
+
+    <section>
+      <input type="text" id="searchInput" placeholder="Search by hashtag...">
+    </section>
+
+    <h2>Latest Uploads</h2>
+    <div id="photoFeed"></div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
